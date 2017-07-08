@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Mar 24 15:07:49 2017
+
+drc -z loop_top.ncd loop_top.pcf
+
+DRC detected 0 errors and 0 warnings.

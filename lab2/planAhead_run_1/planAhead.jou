@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2
+# Build 194362 by xbuild on Fri Jul 20 18:52:36 MDT 2012
+# Start of session at: Fri Mar 24 14:57:16 2017
+# Process ID: 3308
+# Log file: E:/FzpFPAGLab/lab2/planAhead_run_1/planAhead.log
+# Journal file: E:/FzpFPAGLab/lab2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/FzpFPAGLab/lab2/pa.fromHdl.tcl
+startgroup
+set_property package_pin M12 [get_ports {a_to_g[0]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {a_to_g[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {a_to_g[2]}]]
+startgroup
+set_property package_pin M12 [get_ports {a_to_g[0]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {a_to_g[1]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {a_to_g[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {a_to_g[3]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {a_to_g[4]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {a_to_g[5]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {a_to_g[6]}]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {an[3]}]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports {SW[0]}]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports {SW[1]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {SW[2]}]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports {SW[3]}]
+endgroup
+startgroup
+set_property package_pin B6 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  clr]]
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports clr]
+endgroup
+save_design

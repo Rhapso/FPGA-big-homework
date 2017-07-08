@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Mar 24 14:54:33 2017
+
+drc -z count_top.ncd count_top.pcf
+
+DRC detected 0 errors and 0 warnings.
